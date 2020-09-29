@@ -2,7 +2,6 @@ describe('Decimais', () => {
     beforeAll(() => {
         this.elementos = carregarConteudo()
         this.$resultado = this.elementos['calc'].querySelector('input')
-        initCalculadora()
     })
     beforeEach(() => {
         this.$resultado.value = ''
